@@ -1,0 +1,90 @@
+<template>
+  <footer style="background: #ffffff;border-top: 5px solid #6677ef;" class="pt-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 mb-4">
+          <h4 class="font-weight-bold">TENTANG</h4>
+          <hr style="border-top: 3px solid rgb(226 232 240);border-radius:.5rem" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+            Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+          <div class="social">
+            <a href="#" class="mr-4"> <i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="mr-4" style="color:#00c4ff"> <i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="mr-4" style="color: #de2fb8;"> <i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" style="color: red;"> <i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h4 class="font-weight-bold">PEMBAYARAAN</h4>
+          <hr style="border-top: 3px solid rgb(226 232 240);border-radius:.5rem" />
+          <div class="row">
+            <div class="col-md-4 col-4 mb-3">
+              <div class="card h-100 border-0 rounded shadow">
+                <div class="card-body p-2 text-center">
+                  <img src="@/assets/payment/BCA.png" style="width: 50px;" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-4 mb-3">
+              <div class="card h-100 border-0 rounded shadow">
+                <div class="card-body p-2 text-center">
+                  <img src="@/assets/payment/BNI.png" style="width: 45px;" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-4 mb-3">
+              <div class="card h-100 border-0 rounded shadow">
+                <div class="card-body p-2 text-center">
+                  <img src="@/assets/payment/BRI.png" style="width: 60px;" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-4 mb-3">
+              <div class="card h-100 border-0 rounded shadow">
+                <div class="card-body p-2 text-center">
+                  <img src="@/assets/payment/GOPAY.png" style="width: 60px;" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-4 mb-3">
+              <div class="card h-100 border-0 rounded shadow">
+                <div class="card-body p-2 text-center">
+                  <img src="@/assets/payment/indomaret-logo.png" style="width: 60px;" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-4 mb-3">
+              <div class="card h-100 border-0 rounded shadow">
+                <div class="card-body p-2 text-center">
+                  <img src="@/assets/payment/atm-bersama.jpg" style="width: 40px;" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h4 class="font-weight-bold">KONTAK</h4>
+          <hr style="border-top: 3px solid rgb(226 232 240);border-radius:.5rem" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+            Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+      <div class="row text-center mt-3 pb-3">
+        <div class="col-md-12">
+          <hr />
+          © <strong>Online Shop</strong> 2020 • Hak Cipta Dilindungi
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {};
+</script>
