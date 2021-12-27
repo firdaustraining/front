@@ -7,7 +7,7 @@
         </button>
         <h5 class="navbar-brand" href="#">
           <router-link :to="{ name: 'home' }" class="text-decoration-none" data-abc="true">
-            <span class="logo"><i class="fa fa-apple-alt"></i> Solo Budaya </span>
+            <span class="logo"> Solo Budaya </span>
           </router-link>
         </h5>
 
