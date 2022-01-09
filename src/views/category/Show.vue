@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid mb-5 mt-4">
     <div class="row">
-      <div v-for="product in products" :key="product.id" class="col-md-3 col-6 mb-3">
+      <div v-for="product in products" :key="product.id" class="col-md-3 col-sm-6 mb-3">
         <div class="card h-100 border-0 shadow rounded-md">
           <div class="card-img">
             <img :src="product.image" class="w-100" style="height: 15em;object-fit:cover;border-top-left-radius: .25rem;border-top-right-radius: .25rem;" />
