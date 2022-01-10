@@ -7,8 +7,7 @@
           <hr style="border-top: 3px solid rgb(226 232 240);border-radius:.5rem" />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-            Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            type specimen book.
           </p>
           <div class="social">
             <a href="#" class="mr-4"> <i class="fab fa-facebook fa-2x"></i></a>
@@ -68,17 +67,8 @@
         <div class="col-md-4 mb-4">
           <h4 class="font-weight-bold">KONTAK</h4>
           <hr style="border-top: 3px solid rgb(226 232 240);border-radius:.5rem" />
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-            Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-      </div>
-      <div class="row text-center mt-3 pb-3">
-        <div class="col-md-12">
-          <hr />
-          © <strong>Online Shop</strong> 2020 • Hak Cipta Dilindungi
+          <p>Alamat Store : Pasar Klewer Blok D1 No : 10 Surakarta</p>
+          <h5><a href="https://api.whatsapp.com/send?phone=6281327949511" class="fab fa-whatsapp" style="color: #212529"></a> <a href="https://api.whatsapp.com/send?phone=6281327949511" style="color: #212529">081327949511</a></h5>
         </div>
       </div>
     </div>

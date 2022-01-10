@@ -41,6 +41,14 @@
                     <span class="badge badge-pill badge-success" style="font-size: 14px;border-radius: .3rem;padding: .25em .5em .2em;"> {{ product.weight }} gram</span>
                   </td>
                 </tr>
+
+                <tr>
+                  <td class="font-weight-bold">Setelah Membayar Silahkan Konfirmasi ke</td>
+                  <td>:</td>
+                  <td>
+                    <h1><a href="https://api.whatsapp.com/send?phone=6281327949511" class="fab fa-whatsapp-square" style="color: green"></a></h1>
+                  </td>
+                </tr>
               </tbody>
             </table>
             <button v-if="product.stock > 0" @click.prevent="addToCart(product.id, calculateDiscount(product), product.weight)" class="btn btn-primary btn-lg btn-block">
