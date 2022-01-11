@@ -161,7 +161,7 @@
               <div class="col-md-12">
                 <div class="form-group">
                   <label class="font-weight-bold">ALAMAT LENGKAP</label>
-                  <textarea class="form-control" id="alamat" rows="3" placeholder="Alamat Lengkap&#10;&#10;Contoh: Perum. Griya Palem Indah, B-17 Jombang Jawa Timur 61419" v-model="state.address"></textarea>
+                  <textarea class="form-control" id="alamat" rows="3" placeholder="Alamat Lengkap&#10;&#10;Contoh: Perumahan Tiara Ardi RT 05 RW 10 BB 12 57556" v-model="state.address"></textarea>
                   <div v-if="validation.address" class="mt-2 alert alert-danger">
                     Masukkan Alamat Lengkap
                   </div>
@@ -358,8 +358,7 @@ export default {
         store
           .dispatch("cart/checkout", data)
           .then((response) => {
-
-            if(response.success){
+            if (response.success) {
               //jika berhasil, arahakan ke detail order dengan parameter snap_token midtrans
               router.push({
                 name: "detail_order",
@@ -367,8 +366,7 @@ export default {
                   snap_token: response.snap_token,
                 },
               });
-
-            }else{
+            } else {
               // Jika ada custom error dari server (laravel), maka tampilkan disini
               Swal.fire({
                 toast: true,
@@ -380,9 +378,8 @@ export default {
                 showConfirmButton: true,
                 confirmButtonColor: "#6A9722",
                 timer: 5000,
-              })
+              });
             }
-
           })
           .catch((error) => {
             console.log(error);
